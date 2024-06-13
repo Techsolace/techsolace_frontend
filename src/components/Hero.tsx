@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="m-auto max-w-[1200px]">
             <div className="p-8 w-full h-[900px] flex flex-col lg:flex-row justify-between items-center">
               <div className="flex-[1]">
-                <h1 className="text-5xl font-bold leading-[60px] text-Inter text-blue-950">
+                <h1 className="text-5xl font-bold leading-[60px] text-Inter text-blue-950 mt-20 lg:mt-0">
                   Growing your business with confidence
                 </h1>
                 <p className="mt-10 text-2xl">
@@ -28,6 +28,7 @@ const Hero = () => {
                   <button
                     type="submit"
                     name="sendNumber"
+                
                     className="transition absolute top-1 right-1.5 z-[10] bg-yellow-300 rounded-full p-1 hover:bg-black hover:text-white"
                   >
                     <ArrowRightAltOutlined />
