@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="w-full p-6 fixed z-50">
+      <div className="w-full p-6 fixed z-50 bg-white">
         <div className="max-w-[1150px] m-auto">
           <div className="flex flex-wrap items-center">
             <div className="flex-[1]">
@@ -83,6 +83,9 @@ const Header = () => {
           sidebarOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300 ease-in-out`}
       >
+        <span className="text-4xl font-bold absolute top-4 left-4 font-Inter">
+          Menu.
+        </span>
         <div className="flex justify-end p-4">
           <button onClick={toggleSidebar}>
             <SegmentOutlined />
@@ -90,16 +93,16 @@ const Header = () => {
         </div>
         <nav className="flex flex-col p-4">
           <Link href="#" className="font-Inter font-semibold text-sm p-2">
-            Work
+            <ArrowRightAltOutlined /> Work
           </Link>
           <Link href="#" className="font-Inter font-semibold text-sm p-2">
-            Services
+            <ArrowRightAltOutlined /> Services
           </Link>
           <Link href="#" className="font-Inter font-semibold text-sm p-2">
-            Clients
+            <ArrowRightAltOutlined /> Clients
           </Link>
           <Link href="#" className="font-Inter font-semibold text-sm p-2">
-            About
+            <ArrowRightAltOutlined /> About
           </Link>
         </nav>
       </div>

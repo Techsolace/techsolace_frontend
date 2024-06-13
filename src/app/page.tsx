@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Hero from "@/components/Hero";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -11,6 +12,8 @@ export default function Home() {
     <>
       <div>
       <Header />
+      <Hero />
+      s
       </div>
     </>
   );
