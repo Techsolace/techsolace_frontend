@@ -19,7 +19,8 @@ const config = {
     },
     extend: {
       fontFamily: {
-        Inter: ["'Inter'", 'sans-serif']
+        Primary: ["Syne", 'sans-serif'],
+        Secondary: ["Plus Jakarta Sans", 'sans-serif']
       },
       colors: {
         border: "hsl(var(--border))",
