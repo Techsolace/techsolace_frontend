@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Cursor from "./components/cursor";
 import Marquee from "./components/marquee";
 import Marqueee from "./components/marqueee";
+import Video from "./components/Video";
 
 export const metadata: Metadata = {
   title: "Techsolace - Your Dream Our Responsibility",
@@ -18,5 +19,6 @@ export default function Home() {
   <Hero />
   <Marquee />
   <Marqueee />
+  <Video />
   </>;
 }

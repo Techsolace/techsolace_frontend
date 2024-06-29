@@ -14,12 +14,20 @@ const Icon = require('@/../public/icon.png').default;
 const Icon2 = require('@/../public/icon2.jpeg').default;
 const Icon3 = require('@/../public/icon3.png').default;
 const Icon4 = require('@/../public/icon4.png').default;
+const Icon5 = require('@/../public/icon5.png').default;
+const Icon6 = require('@/../public/icon6.png').default;
+const Icon7 = require('@/../public/icon7.png').default;
+
 
 // Array of icon URLs
 const icons = [
+  Icon,
   Icon2,
   Icon3,
-  Icon4
+  Icon4,
+  Icon5,
+  Icon6,
+  Icon7
   // Add more icon URLs as needed
 ];
 
