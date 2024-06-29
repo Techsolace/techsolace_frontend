@@ -85,6 +85,18 @@
     border: 1px solid rgba(0, 27, 63, 0.125);
     background-size: cover;
 }
+
+
+.scroll-trigger-ready__worm-wrap {
+  height: 200vh; /* Increase the height to enable scrolling */
+  background-color: lightblue;
+}
+
+.scroll-trigger-ready__worm-wrap p {
+  font-size: 24px;
+}
+
+
 .cursor {
   width: 20px;
   height: 20px;
