@@ -28,7 +28,7 @@ const Video = () => {
   return (
     <div style={background}>
       <div className="max-w-[1200px] p-10 m-auto">
-      <h1 className="text-6xl text-white tracking-wider pt-10 pb-10 font-Primary leading-[60px] text-center">
+      <h1 className="text-xl lg:text-6xl text-white tracking-wider pt-10 pb-10 font-Primary leading-[25px] lg:leading-[60px] text-center">
         Unleashing Creativity, Shaping Your Brand! At our design agency, we
         specialize in creating unique and memorable visual experiences for bold
         brands ready to make a statement.

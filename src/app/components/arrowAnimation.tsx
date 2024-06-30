@@ -26,8 +26,8 @@ const IconRotateAnimation: React.FC = () => {
     }, []);
 
     return (
-        <div className="h-screen">
-            <DoubleArrowOutlinedIcon ref={iconRef} style={{ fontSize: 58 }} className='text-zinc-200' />
+        <div>
+            <DoubleArrowOutlinedIcon ref={iconRef} className='text-zinc-200 text-3xl lg:text-5xl' />
         </div>
     );
 };

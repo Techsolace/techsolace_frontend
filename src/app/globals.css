@@ -96,6 +96,21 @@
   font-size: 24px;
 }
 
+#card {
+  backdrop-filter: blur(0px) saturate(0%);
+  -webkit-backdrop-filter: blur(0px) saturate(0%);
+  background-color: rgba(17, 25, 40, 0.64);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  transition: box-shadow 0.3s ease;
+}
+
+#card:hover {
+  -webkit-box-shadow: 0px 0px 41px 3px rgba(255, 255, 255, 0.26);
+  -moz-box-shadow: 0px 0px 41px 3px rgba(255, 255, 255, 0.26);
+  box-shadow: 0px 0px 41px 3px rgba(255, 255, 255, 0.26);
+}
+
 
 .cursor {
   width: 20px;
