@@ -16,7 +16,7 @@ const Services = () => {
   return (
     <div style={background}>
       <div className="max-w-[1200px] p-10 m-auto">
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-col lg:flex-row gap-10">
           <div className="flex-[1]">
             <div className="flex flex-wrap gap-2 flex-row">
               <h1 className="text-3xl lg:text-5xl font-bold font-Primary text-white">
@@ -26,7 +26,7 @@ const Services = () => {
             </div>
           </div>
           <div className="flex-[2]">
-            <div className="grid grid-cols-2 gap-10">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
               <div className="rounded-xl w-full gap-4 bg-white" id="card">
                 <div className="p-10">
                   <div className="flex flex-col gap-5">
