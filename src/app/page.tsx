@@ -6,6 +6,7 @@ import Marquee from "./components/marquee";
 import Marqueee from "./components/marqueee";
 import Video from "./components/Video";
 import Portfolio from "./components/Portfolio";
+import Services from "./components/Services";
 
 export const metadata: Metadata = {
   title: "Techsolace - Your Dream Our Responsibility",
@@ -22,5 +23,6 @@ export default function Home() {
   <Marqueee />
   <Video />
   <Portfolio />
+  <Services />
   </>;
 }
